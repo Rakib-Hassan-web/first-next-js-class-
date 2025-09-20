@@ -1,9 +1,22 @@
 import React from 'react'
 
-const j = () => {
+const Navbar = () => {
   return (
-    <div>j</div>
+    <>
+    
+    <div className='bg-pink-400 py-5  w-full'>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contac</li>
+        </ul>
+    </div>
+    
+    
+    
+    
+    </>
   )
 }
 
-export default j
+export default Navbar
