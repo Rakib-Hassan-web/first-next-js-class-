@@ -3,7 +3,7 @@ import Sidenav from '../components/Sidenav'
 
 const layout = ({children}) => {
   return (
-    <div>
+    <div className='flex items-center'>
     <Sidenav/>
         {children}
     </div>
